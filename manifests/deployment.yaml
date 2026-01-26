@@ -17,3 +17,26 @@ spec:
         image: wil42/playground:v2
         ports:
         - containerPort: 8888
+<<<<<<< HEAD
+=======
+# 
+# ---
+
+# apiVersion: networking.k8s.io/v1
+# kind: Ingress
+# metadata:
+#   name: ingress
+#   annotations:
+#     ingress.kubernetes.io/ssl-redirect: "false"
+# spec:
+#   rules:
+#   - http:
+#       paths:
+#       - path: /
+#         pathType: Prefix
+#         backend:
+#           service:
+#             name: wil-playground
+#             port:
+#               number: 8888
+>>>>>>> f01f44035607ccc4c7a39f9bd8f0b1de8510e071
